@@ -1,0 +1,114 @@
+:root{
+    --white-color:#ffff;
+    --main-color:rgb(60, 5, 133);
+    --main-color2:rgb(100, 15, 211);
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: var(--main-color);
+    padding: 5px;
+    color: var(--white-color);
+    font-size: 20px;
+}   
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    display: flex;
+   
+}
+form input{
+    padding: 10px;
+    margin-right: 20px;
+    width: 500px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+li img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.one{
+    width: 10%;
+    padding: 10px 0;
+}
+.frm{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.frm span{
+    padding: 10px 0;
+}
+li{
+    text-align: center;
+}
+.three{
+    width: 10%;
+}
+.pp,.kategori{
+    height: 50vh;
+    background-color: rgba(190, 185, 201, 0.932);
+    margin: 50px;
+    padding: 20px ;
+}
+.pp>.profile{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 2px 5px 2px grey;
+    position: absolute;
+    top:35%;
+    left: 35%;
+    padding: 40px 40px;
+    
+
+}
+.pp img{
+    position: relative;
+    z-index: 2;
+    left: 49%;
+    width: 100px;
+    text-align: center;
+    border-radius: 50%;
+}
+.profile>.profile-deskripsi{
+    background-color: var(--main-color2);
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    margin: 20px 0;
+    grid-template-columns: repeat(3,1fr);
+    color: #ffff;
+}
+i{
+    font-size: 25px;
+}
+.kategori{
+    padding: 30px 70px;
+}
+.kategori>.sub-kategori{
+    padding: 20px 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 70px;
+    height: 30vh;
+}
+.category{
+    background-color: white;
+}
+.category img{
+    height: 20vh;
+    width: 100%;
+}
+.category>.deskripsi{
+    padding: 10px;
+}
