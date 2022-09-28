@@ -104,11 +104,17 @@ i{
 }
 .category{
     background-color: white;
+    border-radius: 5px;
+}
+.category:hover{
+    cursor: pointer;
+    box-shadow: 1px 3px 0px 2px grey;
 }
 .category img{
+    border-radius: 5px 5px 0 0;
     height: 20vh;
     width: 100%;
 }
-.category>.deskripsi{
+.category>.deskripsi, .category>.footer-category{
     padding: 10px;
 }
