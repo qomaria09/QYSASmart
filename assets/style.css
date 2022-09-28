@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Manrope:wght@200;800&family=Noto+Serif:ital@1&family=Poppins:wght@500&display=swap');
 :root{
     --white-color:#ffff;
     --main-color:rgb(60, 5, 133);
@@ -6,6 +7,7 @@
 body{
     padding: 0;
     margin: 0;
+   
 }
 header{
     background-color: var(--main-color);
@@ -69,6 +71,7 @@ li{
     top:35%;
     left: 35%;
     padding: 40px 40px;
+    font-family:'Noto Serif';
     
 
 }
@@ -94,6 +97,14 @@ i{
 }
 .kategori{
     padding: 30px 70px;
+    font-family:'Acme';
+}
+.kategori h2{
+    text-align: center;
+    color: black;
+}
+a{
+    text-decoration: none;
 }
 .kategori>.sub-kategori{
     padding: 20px 50px;
@@ -115,6 +126,13 @@ i{
     height: 20vh;
     width: 100%;
 }
+.category>.deskripsi{
+    text-align: center;
+    font-size: 20px;
+}
 .category>.deskripsi, .category>.footer-category{
     padding: 10px;
+}
+.category>.footer-category{
+    color: gray;
 }
