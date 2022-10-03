@@ -22,7 +22,6 @@ ul{
 }
 ul li{
     display: flex;
-   
 }
 form input{
     padding: 10px;
@@ -72,8 +71,6 @@ li{
     left: 35%;
     padding: 40px 40px;
     font-family:'Noto Serif';
-    
-
 }
 .pp img{
     position: relative;
@@ -98,6 +95,7 @@ i{
 .kategori{
     padding: 30px 70px;
     font-family:'Acme';
+    height: fit-content;
 }
 .kategori h2{
     text-align: center;
@@ -135,4 +133,84 @@ a{
 }
 .category>.footer-category{
     color: gray;
+    
+}
+
+#soal{
+    z-index: 4;
+}
+.box-quest{
+    position: absolute;
+    top: 30%;
+    height: fit-content;
+    left: 30%;
+    width: 40%;
+    background-color: rgb(172, 167, 167)
+}
+.image-box img{
+    width: 100%;
+    height: 40vh;
+}
+.question-start{
+    padding: 20px;
+}
+.question-start>.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.profile-user img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.example-question{
+    background-color: beige;
+    padding: 5px 0;
+    margin: 7px 0;
+}
+.btn-start{
+    text-align: center;
+}
+.btn-start button{
+    background-color: var(--main-color);
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+@media(max-width:768px){
+    form input{
+        width: 100px;
+    }
+    .frm,.fa{
+        font-size: 15px;
+    }
+    li img{
+        width: 30px;
+        height: 30px;
+      
+    }
+    .one{
+        width: 20%;
+      
+    }
+    .frm{
+        width: 50%;
+        margin: 0 auto;
+        
+    }
+    .pp>.profile{
+        width: 58%;
+        left: 15%;
+    }
+    .pp img{
+        left: 40%;
+    }
+    .kategori>.sub-kategori{
+        grid-template-columns: 1fr;
+        grid-row-gap: 50px;
+    }
+    .kategori{
+        height: 120vh;
+    }
 }
